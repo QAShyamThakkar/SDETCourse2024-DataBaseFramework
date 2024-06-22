@@ -1,0 +1,6 @@
+com\automation\stepdefinition\Hooks.class
+com\automation\pages\LoginPage.class
+com\automation\stepdefinition\LoginSteps.class
+com\automation\pages\BasePage.class
+com\automation\utils\PropertyReader.class
+com\automation\utils\DriverUtils.class
