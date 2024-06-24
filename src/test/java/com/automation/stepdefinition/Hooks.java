@@ -22,8 +22,8 @@ public class Hooks {
 
     @After
     public void cleanUp(){
-        DriverUtils.quitDriver();
-        DataBaseUtils.closeDataBase();
+//        DriverUtils.quitDriver();
+//        DataBaseUtils.closeDataBase();
 
     }
 

@@ -7,9 +7,9 @@ import java.sql.Statement;
 
 public class DataBaseUtils {
 
-    static String url = PropertyReader.getProperty("db.url");
-    static String userName = PropertyReader.getProperty("db.userName");
-    static String password = PropertyReader.getProperty("db.password");
+    static String url = PropertyReader.getProperty("DigitalBankDataBase.url");
+    static String userName = PropertyReader.getProperty("DigitalBankDataBase.userName");
+    static String password = PropertyReader.getProperty("DigitalBankDataBase.password");
     static Statement stmt;
     static Connection con;
     static ResultSet rs;

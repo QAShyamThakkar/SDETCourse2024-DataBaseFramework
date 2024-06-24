@@ -9,8 +9,8 @@ Feature: Transfer Fund Feature
     When user clicks on transfer between accounts
 
     Then verify user is on internal transfer page
-    When user select from account "transfer.from.account1"
-    And user select to account "transfer.to.account1"
+    When user select from account "DigitalBank.fromAccount"
+    And user select to account "DigitalBank.toAccount"
     And enter amount "transfer.amount"
     And click on submit button
 
